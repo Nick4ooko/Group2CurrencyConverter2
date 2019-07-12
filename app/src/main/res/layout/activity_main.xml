@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="">
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_2_id"
+        android:layout_below="@id/tv_1_id"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv_1_id"
+        android:background="@color/colorWhite"
+
+
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_dollarstoshilling_id"
+        android:onClick="dollarMethod"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/et_2_id"
+        android:text="$ to ksh"
+        android:width="150dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+
+
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_shillingtodollar"
+        android:onClick="shillingMethod"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/et_2_id"
+        android:text="ksh to $"
+        android:width="150dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_eurotoshilling_id"
+        android:onClick="euroMethod"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/bt_dollarstoshilling_id"
+        android:text="euro to shilling"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_shillingtoeuro_id"
+        android:onClick="shillingteMethod"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/bt_shillingtodollar"
+        android:text="ksh to euro"
+        android:width="150dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+
+        />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_dollartoeuro"
+        android:onClick="dollar2eMethod"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/bt_eurotoshilling_id"
+        android:text="$ to euro"
+        android:width="200dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
